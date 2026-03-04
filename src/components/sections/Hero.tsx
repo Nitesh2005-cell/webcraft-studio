@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col justify-end px-6 md:px-16 pb-20 relative overflow-hidden">
+    <section className="min-h-screen flex flex-col justify-end px-6 md:px-16 pb-25 pt-25 relative overflow-hidden">
       {/* BG */}
       <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at 70% 40%, #1a1200 0%, #0a0a0a 60%)' }} />
       <div className="absolute inset-0 grid-bg" />
